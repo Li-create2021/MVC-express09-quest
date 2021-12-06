@@ -1,5 +1,5 @@
 const moviesRouter = require('express').Router();
-const Movie = require('../models/movie');
+const Movie = require('../models/movies');
 
 moviesRouter.get('/', (req, res) => {
     const { max_duration, color } = req.query;
